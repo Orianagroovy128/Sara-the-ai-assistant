@@ -1,0 +1,37 @@
+# Virtual Environment
+sara_env/
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Database (contains user conversation history)
+*.db
+
+# Audio temp files
+temp_cmd.wav
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+
+# Screenshots
+sara_screenshots/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

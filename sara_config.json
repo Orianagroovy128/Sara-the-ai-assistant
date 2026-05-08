@@ -1,0 +1,36 @@
+{
+  "assistant_name": "Sara",
+  "wake_words": ["hey sara", "sara", "sarah", "hey sarah", "ok sara", "ok sarah", "hello sara", "hello sarah", "hi sara", "hi sarah", "sara wake up", "sarah wake up", "sara are you there", "sarah are you there", "hey sara", "thank you", "peace out", "yo sara", "hey siri", "hey sra", "hey sar"],
+  "audio": {
+    "sample_rate": 16000,
+    "chunk_size": 512,
+    "silence_threshold_rms": 15,
+    "silence_duration_sec": 3.0,
+    "wake_word_timeout_sec": 5.0,
+    "wake_listen_sec": 2.5,
+    "max_record_sec": 15
+  },
+  "models": {
+    "whisper_model": "small.en",
+    "ollama_host": "http://localhost:11434",
+    "openclaw_host": "http://127.0.0.1:18789",
+    "ollama_model": "llama3.2:latest",
+    "openclaw_model": "openclaw/main",
+    "prefer_openclaw": true,
+    "openclaw_timeout_sec": 180,
+    "ollama_fallback_model": "llama3:latest",
+    "num_ctx": 4096,
+    "num_predict": 350
+  },
+  "privacy": {
+    "local_core_only": true
+  },
+  "tts": {
+    "rate": 175,
+    "volume": 1.0
+  },
+  "ui": {
+    "fps": 40,
+    "opacity": 0.95
+  }
+}
